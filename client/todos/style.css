@@ -1,0 +1,99 @@
+body {
+    padding: 1em;
+    margin: 1em;
+    margin-left: 170px;
+    margin-right: 170px;
+    background-color: #263EAC;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+table {
+    border: 0px solid #fff;
+    border-collapse: collapse;
+    margin-bottom: 1em;
+}
+
+th,
+td {
+    padding-right: 0.5em;
+    padding-left: 0.5em;
+    padding-bottom: 1em;
+    text-align: center;
+}
+
+th {
+    font-size: 1.2em;
+    font-family: 'Marcellus', serif;
+}
+
+td {
+    font-family: 'News Cycle', sans-serif;
+}
+
+img {
+    width: 30px;
+}
+
+img:hover {
+    cursor: pointer;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 1em;
+    font-family: 'Marcellus', serif;
+}
+
+.table-body {
+    border-radius: 2em;
+    background-color: rgba(255, 255, 255, 0.945);
+    color: black;
+    padding: 1em;
+    width: 65em;
+    display: flex;
+    justify-content: center;
+}
+
+.task-input {
+    margin-bottom: 2em;
+    width: 200px;
+    height: 25px;
+}
+.user-input{
+    margin-bottom: 2em;
+    width: 150px;
+    height: 25px;
+}
+.input::placeholder {
+    text-align: center;
+    color: black;
+    opacity: 50%;
+    font-weight: bold;
+}
+
+svg path {
+    fill: #263EAC;
+}
+
+.addButton {
+    padding: 0;
+    margin-bottom: 2em;
+    height: 30px;
+}
+
+.add-todo {
+    display: flex;
+    align-items: self-start;
+    margin-left: 1.5em;
+}
+.flex{
+    display: flex;
+}
+.clock{
+    font-size: 1.5em;
+}
